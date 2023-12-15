@@ -12,6 +12,13 @@
       * {
         font-family: 'Comic Sans MS', cursive;
       }
+      body{
+        background-image: linear-gradient(#FFDEB4, #F38181);
+      }
+      #navbar {
+        background-color: #f38181;
+        color: rgb(238, 207, 207);
+    }
     </style>
 </head>
 
@@ -33,7 +40,7 @@
     </div>
 </nav>
 
-  <div class=" d-flex justify-content-center">
+  <div class=" d-flex justify-content-center mt-3">
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,7 +73,7 @@
       </button>
     </div>
   </div>
-  <h3 class="text-center" style="color: #fdf7c3;">Let's take action!</h3>
+  <h3 class="text-center py-3" style="color: #fdf7c3;">Let's take action!</h3>
   <br>
       <div class="container-fluid text-center">
         <div class="row justify-content-center">
@@ -75,7 +82,41 @@
               <h5 style="font-family: arial;" class="card-title ">Self-help</h5>
               <img style="width: 12rem; height: 8rem;" src="https://lthomason.files.wordpress.com/2016/10/saving-myself.jpg?w=1000" alt="">
               <p class="card-text">How do I help myself if I am being flamed on the Internet?</p>
-              <a href="tips2.html" class="btn" style="background-color: #f38181; color: #fdf7c3;">Click for tips!</a>
+              <!-- Button trigger modal -->
+<button type="button" class="btn" style="background-color: #f38181; color: #fdf7c3;" data-bs-toggle="modal" data-bs-target="#tipsModal">
+  Click for tips!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="tipsModal" tabindex="-1" aria-labelledby="tipsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tipsModalLabel">Tips</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: #f38181; text-align: center;">Steps to take if you are being flamed on the Internet:</h3>
+        <ol style="color: #f38181; font-size: large;">
+            <li>If you can, reach out to the instigators to find a resolution/block them from further posting.</li>
+            <li>Always be polite on the Internet. Do not be rude to the other party.</li>
+            <li>Acknowledge the truths. Most online rants are tied to at least a seed of truth. Ensure sure you are honest about those points.
+                Fix what you can. Nothing diffuses a nasty situation faster than solving the problem.</li>
+                <li>Be open to different solutions. Different situations and different people call for different approaches. Sometimes you have to sit down and join them in conversation. Sometimes you have to laugh.</li>
+                <li>Know when to move on. Sometimes, the best thing to do is not engage them at all, or to end a conversation. Do not be afraid to do the same online. </li>
+        </ol>
+        <hr>
+        <h3 style="color: #f38181; text-align: center;">Watch this video to find other ways to help yourself if you are a victim of flaming.</h3>
+        <div style="text-align: center;">
+            <iframe width="360" height="220" src="https://www.youtube.com/embed/zASfp7_-lhg" title="5 Ways to Stop Cyberbullying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
           </div>
           <div class="card me-3" style="width: 16rem;">
@@ -83,7 +124,39 @@
               <h5 style="font-family: arial;" class="card-title ">Helping others</h5>
               <img style="width: 12rem;" src="https://tse2.mm.bing.net/th?id=OIP.g458K2fMyAuRLH82ZAMn7AHaE4&pid=Api&P=0&h=180" alt="">
               <p class="card-text">How do I help someone if being flamed on the Internet?</p>
-              <a href="tips3.html" class="btn" style="background-color: #f38181; color: #fdf7c3;">Click for tips!</a>
+              <!-- Button trigger modal -->
+<button type="button" class="btn" style="background-color: #f38181; color: #fdf7c3;" data-bs-toggle="modal" data-bs-target="#supportModal">
+  Click for tips!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="supportModal" tabindex="-1" aria-labelledby="supportModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportModalLabel">Tips</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: #f38181; text-align: center;">Steps to take to support someone being flamed on the Internet:</h3>
+        <ol style="color: #f38181; font-size: large;">
+            <li>Take a step back. Do not rush to stand up for the person being flamed, especially when you are angry.</li>
+            <li>Hear the victim out. Lend a listening ear to get a sense of how they are coping with the aggression towards them.</li>
+            <li>If the victim requires your help, discuss and find different solutions. Different situations and different people call for different approaches. Sometimes you have to sit down and join them in conversation. Sometimes you have to laugh.</li>
+            <li>Let the victim know when to move on. Sometimes, the best thing to do is to not engage the aggressor at all. This can prevent further conflict.</li>
+        </ol>
+        <hr>
+        <h3 style="color: #f38181; text-align: center;">Watch this video to find out more on how to support a victim of flaming online.</h3>
+        <div style="text-align: center;">
+            <iframe width="360" height="220" src="https://www.youtube.com/embed/iug64_shD0w" title="Ten things you should do if someone you know is being cyberbullied" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
           </div>
           <div class="card" style="width: 16rem;">
@@ -91,7 +164,54 @@
               <h5 style="font-family: arial;" class="card-title ">A parent's guide</h5>
               <img style="width: 12rem;" src="https://fthmb.tqn.com/V24xXonvk44cGZT-5BBGjD5Cm1U=/3867x2578/filters:fill(87E3EF,1)/465892773-56a793695f9b58b7d0ebd6fd.jpg" alt="">
               <p class="card-text">How do I help my child navigate through the Internet?</p>
-              <a href="tips4.html" class="btn" style="background-color: #f38181; color: #fdf7c3;">Click for tips!</a>
+              <!-- Button trigger modal -->
+<button type="button" class="btn" style="background-color: #f38181; color: #fdf7c3;" data-bs-toggle="modal" data-bs-target="#childModal">
+  Click for tips!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="childModal" tabindex="-1" aria-labelledby="childModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="childModalLabel">Tips</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: #f38181; text-align: center;">Watch out for signs of your child engaging in flaming activities online:</h3>
+        <ol style="color: #f38181; font-size: large;">
+            <li>Avoiding conversations about their social media use</li>
+            <li>Owning multiple accounts on the same platform</li>
+            <li>Suddenly changing screens when an adult is nearby</li>
+            <li>Becoming uncharacteristically angry or irritable when they can’t access electronics</li>
+        </ol>
+        <hr>
+        <h3 style="color: #f38181; text-align: center;">Watch this video on how tell if your child is being flamed online.</h3>
+        <div style="text-align: center;">
+            <iframe width="360" height="220" src="https://www.youtube.com/embed/4q3kozQJFLU" title="Spotting signs that your child is being cyberbullied" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <hr style="color: #f38181;">
+        <div style="text-align: center; color: #f38181;"><h3>Could my child be flaming others online?</h3>
+        <iframe width="360" height="220" src="https://www.youtube.com/embed/TMp5QLVILOs" title="4 Signs That Your Kid Might Be Cyberbullying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <h3 style="font-size: large; color: #f38181; text-align: center;">But what if you realise your child is a cyberbully?</h3>
+
+        <p style="font-size: large; color: #f38181;">Like traditional forms of bullying, it is important to get to the root cause of the behaviour, said experts.  Parents should also explain to their children the impact of their bullying on themselves and their victims.</p> 
+        
+        <p style="font-size: large; color: #f38181;">Singapore Children’s Society Ms Ann said: “Bullying not only affects victims but the bullies as well. There has been much research indicating that if left unsupported, some bullies may engage in aggressive behaviours in adulthood, have impaired social skills and relationships, or even experience depression and suicide.”</p>
+        
+        <p style="font-size: large; color: #f38181;">Added Prof Lim of SMU: “With cyberbullying, sometimes bullies think that it is not going to have any physical kind of damage as it is just an image or a few words on the Internet. So it is important to elicit a sense of empathy in the bully to explain that their actions can inflict lasting damage on the victim.”</p>
+
+        <b></b>
+        <p style="font-size: large; color: #f38181;">Left unaddressed, flaming can be dangerous and have serious consequences. It’s up to adults to intervene when minors are involved. At the beginning stages of a flame war, you may be able to simply leave the conversation or block the offending party or parties. However, once multiple individuals have become involved, it’s often more difficult to end a flame war.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
 
         
